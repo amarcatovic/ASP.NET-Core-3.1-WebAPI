@@ -27,9 +27,6 @@ namespace CommandsCORE.Controllers
         {
             var command = _repo.GetCommandById(id);
 
-            if (command == null)
-                return BadRequest();
-
             return Ok(command);
         }
     }
