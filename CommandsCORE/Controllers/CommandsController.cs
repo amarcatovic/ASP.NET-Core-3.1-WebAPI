@@ -26,6 +26,7 @@ namespace CommandsCORE.Controllers
         public ActionResult<Command> GetCommandById(int id)
         {
             var command = _repo.GetCommandById(id);
+
             if (command == null)
                 return BadRequest();
 
