@@ -1,4 +1,6 @@
-﻿using CommandsCORE.Data;
+﻿using AutoMapper;
+using CommandsCORE.Data;
+using CommandsCORE.Dtos;
 using CommandsCORE.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -13,26 +15,31 @@ namespace CommandsCORE.Controllers
     public class CommandsController : ControllerBase
     {
         private readonly IRepository _repo;
+        private readonly IMapper _mapper;
 
-        public CommandsController(IRepository repository)
+        public CommandsController(IRepository repository, IMapper mapper)
         {
             _repo = repository;
+            _mapper = mapper;
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Command>> GetAllCommands()
+        public ActionResult<IEnumerable<CommandReadDto>> GetAllCommands()
         {
             var commands = _repo.GetAllCommands();
 
-            return Ok(commands);
+            return Ok(_mapper.Map<IEnumerable<CommandReadDto>>(commands));
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Command> GetCommandById(int id)
+        public ActionResult<CommandReadDto> GetCommandById(int id)
         {
             var command = _repo.GetCommandById(id);
 
-            return Ok(command);
+            if (command == null)
+                return NotFound();
+
+            return Ok(_mapper.Map<CommandReadDto>(command));
         }
     }
 }
