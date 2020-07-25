@@ -2,6 +2,7 @@
 using CommandsCORE.Data;
 using CommandsCORE.Dtos;
 using CommandsCORE.Models;
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -65,6 +66,28 @@ namespace CommandsCORE.Controllers
             _mapper.Map(command, commandWillUpdate);
 
             _repo.UpdateCommand(commandWillUpdate);
+            _repo.Done();
+
+            return NoContent();
+        }
+
+        [HttpPatch("{id}", Name = "PatchUpdate")]
+        public ActionResult PatchUpdate(int id, JsonPatchDocument<CommandUpdateDto> patchArray)
+        {
+            var commandFromDb = _repo.GetCommandById(id);
+
+            if (commandFromDb == null)
+                return NotFound();
+
+            var patchCommand = _mapper.Map<CommandUpdateDto>(commandFromDb);
+            patchArray.ApplyTo(patchCommand, ModelState);
+
+            if (!TryValidateModel(patchCommand))
+                return ValidationProblem(ModelState);
+
+            _mapper.Map(patchCommand, commandFromDb);
+
+            _repo.UpdateCommand(commandFromDb);
             _repo.Done();
 
             return NoContent();
