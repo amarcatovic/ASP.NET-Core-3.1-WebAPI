@@ -31,3 +31,7 @@ C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\Sy
 C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\obj\Debug\netcoreapp3.1\CommandsCORE.csproj.CopyComplete
+C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
