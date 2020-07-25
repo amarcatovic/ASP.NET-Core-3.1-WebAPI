@@ -12,5 +12,6 @@ namespace CommandsCORE.Data
         IEnumerable<Command> GetAllCommands();
         Command GetCommandById(int id);
         void AddCommand(Command command);
+        void UpdateCommand(Command command);
     }
 }

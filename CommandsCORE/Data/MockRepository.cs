@@ -38,5 +38,10 @@ namespace CommandsCORE.Data
                                     Platform = "T-SQL" 
                                   };
         }
+
+        public void UpdateCommand(Command command)
+        {
+           
+        }
     }
 }

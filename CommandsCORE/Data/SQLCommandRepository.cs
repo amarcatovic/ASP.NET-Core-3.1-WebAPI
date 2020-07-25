@@ -37,5 +37,10 @@ namespace CommandsCORE.Data
         {
             return _context.Commands.SingleOrDefault(c => c.Id == id);
         }
+
+        public void UpdateCommand(Command command)
+        {
+            
+        }
     }
 }
