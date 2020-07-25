@@ -8,6 +8,16 @@ namespace CommandsCORE.Data
 {
     public class MockRepository : IRepository
     {
+        public void AddCommand(Command command)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Done()
+        {
+            throw new NotImplementedException();
+        }
+
         public IEnumerable<Command> GetAllCommands()
         {
             var commands = new List<Command>()

@@ -14,6 +14,20 @@ namespace CommandsCORE.Data
         {
             _context = context;
         }
+
+        public void AddCommand(Command command)
+        {
+            if (command == null)
+                throw new ArgumentNullException();
+
+            _context.Add(command);
+        }
+
+        public bool Done()
+        {
+            return (_context.SaveChanges() >= 0);
+        }
+
         public IEnumerable<Command> GetAllCommands()
         {
             return _context.Commands.ToList();

@@ -8,7 +8,9 @@ namespace CommandsCORE.Data
 {
     public interface IRepository
     {
+        bool Done();
         IEnumerable<Command> GetAllCommands();
         Command GetCommandById(int id);
+        void AddCommand(Command command);
     }
 }

@@ -13,7 +13,7 @@ namespace CommandsCORE.Profiles
         public CommandsProfile()
         {
             CreateMap<Command, CommandReadDto>();
-            CreateMap<CommandReadDto, Command>();
+            CreateMap<CommandCreateDto, Command>();
         }
     }
 }
