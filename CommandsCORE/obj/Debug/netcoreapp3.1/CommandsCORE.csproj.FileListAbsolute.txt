@@ -8,8 +8,6 @@ C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\Co
 C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\CommandsCORE.dll
 C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\CommandsCORE.pdb
 C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\obj\Debug\netcoreapp3.1\CommandsCORE.csprojAssemblyReference.cache
-C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\obj\Debug\netcoreapp3.1\CommandsCORE.csproj.CoreCompileInputs.cache
-C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\obj\Debug\netcoreapp3.1\CommandsCORE.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\obj\Debug\netcoreapp3.1\CommandsCORE.AssemblyInfoInputs.cache
 C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\obj\Debug\netcoreapp3.1\CommandsCORE.AssemblyInfo.cs
 C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\obj\Debug\netcoreapp3.1\CommandsCORE.RazorTargetAssemblyInfo.cache
@@ -18,3 +16,18 @@ C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\obj\Debug\netcoreapp3.1\st
 C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\obj\Debug\netcoreapp3.1\CommandsCORE.dll
 C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\obj\Debug\netcoreapp3.1\CommandsCORE.pdb
 C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\obj\Debug\netcoreapp3.1\CommandsCORE.genruntimeconfig.cache
+C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\amar_\source\repos\CommandsCORE\CommandsCORE\obj\Debug\netcoreapp3.1\CommandsCORE.csproj.CopyComplete

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CommandsCORE.Data
 {
-    interface IRepository
+    public interface IRepository
     {
         IEnumerable<Command> GetAllCommands();
         Command GetCommandById(int id);
