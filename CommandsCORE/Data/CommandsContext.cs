@@ -1,4 +1,5 @@
-﻿using CommandsCORE.Models;
+﻿using CommandsCORE.Data.EntityFrameworkConfigs;
+using CommandsCORE.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -15,5 +16,11 @@ namespace CommandsCORE.Data
         }
 
         public DbSet<Command> Commands { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new CommandConfiguration());
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

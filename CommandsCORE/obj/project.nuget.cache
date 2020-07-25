@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "X9NIO/1G8dyUEN4keTVoGpSqUj2hEfBM2CeRcD0I9Wo/XQGJ19COEoPUIRCzs7vIn+GApvXhEVLzpbpH3wxVew==",
+  "dgSpecHash": "MVbsVT51GyThpAS3QcYvEAOJPDsHU9btQ6UUs5UdPEFcnF3W0dI0aPH/4TkFZkewd6CfDGUJrlOTr6DBERZJcQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\amar_\\source\\repos\\CommandsCORE\\CommandsCORE\\CommandsCORE.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\amar_\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.0-preview.7.20365.15\\microsoft.entityframeworkcore.design.5.0.0-preview.7.20365.15.nupkg.sha512",
     "C:\\Users\\amar_\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.0-preview.7.20365.15\\microsoft.entityframeworkcore.relational.5.0.0-preview.7.20365.15.nupkg.sha512",
     "C:\\Users\\amar_\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.0-preview.7.20365.15\\microsoft.entityframeworkcore.sqlserver.5.0.0-preview.7.20365.15.nupkg.sha512",
+    "C:\\Users\\amar_\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.0-preview.7.20365.15\\microsoft.entityframeworkcore.tools.5.0.0-preview.7.20365.15.nupkg.sha512",
     "C:\\Users\\amar_\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0-preview.7.20364.11\\microsoft.extensions.caching.abstractions.5.0.0-preview.7.20364.11.nupkg.sha512",
     "C:\\Users\\amar_\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0-preview.7.20364.11\\microsoft.extensions.caching.memory.5.0.0-preview.7.20364.11.nupkg.sha512",
     "C:\\Users\\amar_\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0-preview.7.20364.11\\microsoft.extensions.configuration.abstractions.5.0.0-preview.7.20364.11.nupkg.sha512",
