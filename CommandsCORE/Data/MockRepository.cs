@@ -13,6 +13,11 @@ namespace CommandsCORE.Data
             throw new NotImplementedException();
         }
 
+        public void DeleteCommand(Command command)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool Done()
         {
             throw new NotImplementedException();

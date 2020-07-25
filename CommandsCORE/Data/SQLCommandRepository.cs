@@ -23,6 +23,14 @@ namespace CommandsCORE.Data
             _context.Add(command);
         }
 
+        public void DeleteCommand(Command command)
+        {
+            if (command == null)
+                throw new ArgumentNullException();
+
+            _context.Remove(command);
+        }
+
         public bool Done()
         {
             return (_context.SaveChanges() >= 0);

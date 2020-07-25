@@ -13,5 +13,6 @@ namespace CommandsCORE.Data
         Command GetCommandById(int id);
         void AddCommand(Command command);
         void UpdateCommand(Command command);
+        void DeleteCommand(Command command);
     }
 }
